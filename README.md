@@ -1,70 +1,207 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+*** Template from https://github.com/othneildrew/Best-README-Template
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## Available Scripts
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+<!-- [![Issues][issues-shield]][issues-url] -->
+[![MIT License][license-shield]][license-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url]  -->
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <!-- <a href="https://github.com/snowyPigeon/random-number-generator">
+    <img src="images/temp-logo.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-### `npm start`
+<h3 align="center">Random Number Generator</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <p align="center">
+    This Random Number Generator was created as a solution to the challenge Create a Random Number Generator, at Local Hack Day: Build 2022.
+    <br />
+    <a href="https://github.com/snowyPigeon/random-number-generator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/snowyPigeon/random-number-generator">View Demo</a>
+    ·
+    <a href="https://github.com/snowyPigeon/random-number-generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/snowyPigeon/random-number-generator/issues">Request Feature</a>
+  </p>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About The Project
 
-### `npm run build`
+<p>Random Number Generator can produce random numbers from 1 up to an upper limit set by the user. </p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com)
+- [Sass](https://sass-lang.com/dart-sass)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+This is an example of how you may set up your project locally.
+To get a local copy up and running follow these steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node
+  Visit [Node.js](https://nodejs.org/en/download/) and select the appropriate download for your system.
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/snowyPigeon/random-number-generator.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- USAGE EXAMPLES -->
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run a development version of this project, you will need to: 
+1. Run the random-number-generator server by navigating to that directory on your machine's CLI in a new window/tab. Checkout the appropriate branch and run `npm run`. 
+2. Run the *compile:sass* script by navigating to the random-number-generator directory on your machine's CLI in a new window/tab. Checkout the appropriate branch and run `compile:sass`. This will allow live updates to the style sheet based on instructions written in the src/scss directory.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
-### Deployment
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<!-- ROADMAP -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Roadmap
+
+-  Feature 1 Add ability for the user to set a lower limit.
+-  Feature 2 Style with Sass
+
+<!-- See the [open2issues](https://github.com/snowyPigeon/random-number-generator/issues) for a full list of proposed features (and known issues). -->
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTRIBU3ING -->
+
+<!-- ## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+
+1. Fork the Project
+1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request2
+<p align="right">(<a href="#top">back to top</a>)</p> -->
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+snowyPigeon - [@snowyPigeon](https://twitter.com/snowyPigeon_UK)
+
+Project Link: [https://github.com/snowyPigeon/random-number-generator](https://github.com/snowyPigeon/random-number-generator)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+<!-- ## Acknowledgments
+
+- []()
+- []()
+- []()
+
+<p align="right">(<a href="#top">back to top</a>)</p> -->
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/snowyPigeon/random-number-generator.svg?style=for-the-badge
+[contributors-url]: https://github.com/snowyPigeon/random-number-generator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/snowyPigeon/random-number-generator.svg?style=for-the-badge
+[forks-url]: https://github.com/snowyPigeon/random-number-generator/network/members
+[stars-shield]: https://img.shields.io/github/stars/snowyPigeon/random-number-generator.svg?style=for-the-badge
+[stars-url]: https://github.com/snowyPigeon/random-number-generator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/snowyPigeon/random-number-generator.svg?style=for-the-badge
+[issues-url]: https://github.com/snowyPigeon/random-number-generator/issues
+[license-shield]: https://img.shields.io/github/license/snowyPigeon/random-number-generator.svg?style=for-the-badge
+[license-url]: https://github.com/snowyPigeon/random-number-generator/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[product-screenshot]: images/screenshot.png
